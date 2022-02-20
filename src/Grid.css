@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid: 85px 85px 85px / 85px 85px 85px;
+  gap: 5px;
+  background-color: white;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: pink;
+}
+.grid-result,
+.grid-turn {
+  margin-top: 20px;
+}
